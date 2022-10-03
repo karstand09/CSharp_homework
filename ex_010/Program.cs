@@ -1,17 +1,17 @@
-﻿//Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
-
-Console.Clear();
-
-Console.WriteLine("Введите число.\nДля выхода из программы введите комунду exit.");
-
-while(true)
+﻿int InputIntNumber()
 {
-    string num = Console.ReadLine();
-    int strLen = num.Length;
-
-    if(!num.Equals("exit"))
-        Console.WriteLine("{0}->{1}",num, num[1]);
-
-    else
-        break;
+    while (true)
+    {
+        Console.Write("Ведите трёхзначное число: ");
+        int number = int.Parse(Console.ReadLine() ?? "0");
+        while (number > 99 && number < 1000)
+        return number;
+    }
 }
+int Num = InputIntNumber();
+
+int firstNum = Num / 100;
+int secondNum = Num / 10 % 10;
+int thirdNum = Num % 10;
+
+Console.WriteLine(secondNum);
