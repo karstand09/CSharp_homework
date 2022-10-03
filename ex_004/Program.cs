@@ -1,9 +1,13 @@
 ﻿Console.Clear();
 
-Console.Write("Введите ваше число: ");
+Console.Write("Введите первое число: ");
 int a = int.Parse(Console.ReadLine());
 
-for (int i = 2; i <= a ; i = i + 2)
-{
-    Console.WriteLine(i);
-}
+Console.Write("Введите второе число: ");
+int b = int.Parse(Console.ReadLine());
+
+Console.Write("Введите третье число: ");
+int c = int.Parse(Console.ReadLine());
+
+int Max = Math.Max(a, Math.Max(b, c));
+Console.WriteLine(Max);

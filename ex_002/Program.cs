@@ -5,9 +5,15 @@ int a = int.Parse(Console.ReadLine());
 
 Console.Write("Введите второе число: ");
 int b = int.Parse(Console.ReadLine());
+if(a == b)
+{
+    Console.WriteLine("Числа равны");
+}
+else
+{
+    int Max = Math.Max(a, b);
+    int Min = Math.Min(a, b);
 
-Console.Write("Введите третье число: ");
-int c = int.Parse(Console.ReadLine());
-
-int Max = Math.Max(a, Math.Max(b, c));
-Console.WriteLine(Max);
+    Console.WriteLine($"Большее число: {Max}");
+    Console.WriteLine($"Меньшее число: {Min}");
+}
