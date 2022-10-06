@@ -2,6 +2,39 @@
 
 Console.Clear();
 
+int InputIntNumberA()
+{
+    while (true)
+    try
+        {
+            Console.Write("Enter number A: ");
+            int A = int.Parse(Console.ReadLine() ?? "0");
+            return A;
+        }
+        catch 
+        {
+            Console.WriteLine("Something went wrong! Please, enter integer");
+        }
+}
+
+int InputIntNumberB()
+{
+    while (true)
+    try
+        {
+            Console.Write("Enter number B: ");
+            int B = int.Parse(Console.ReadLine() ?? "0");
+            return B;
+        }
+        catch 
+        {
+            Console.WriteLine("Something went wrong! Please, enter integer");
+        }
+}
+
+int A = InputIntNumberA();
+int B = InputIntNumberB();
+
 int Pow(int A, int B)
 {
     int result = 1;
@@ -12,12 +45,6 @@ int Pow(int A, int B)
     }
     return result;
 }
-
-Console.Write("Enter number A: ");
-int A = Convert.ToInt32(Console.ReadLine());
-
-Console.Write("Enter number B: ");
-int B = Convert.ToInt32(Console.ReadLine());
 
 int pow = Pow(A, B);
 
