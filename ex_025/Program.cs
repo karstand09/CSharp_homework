@@ -13,7 +13,7 @@ int InputIntNumberA()
         }
         catch 
         {
-            Console.WriteLine("Something went wrong! Please, enter integer");
+            Console.WriteLine("Something went wrong! Please, enter an integer number");
         }
 }
 
@@ -28,7 +28,7 @@ int InputIntNumberB()
         }
         catch 
         {
-            Console.WriteLine("Something went wrong! Please, enter integer");
+            Console.WriteLine("Something went wrong! Please, enter an integer number");
         }
 }
 
