@@ -15,3 +15,6 @@
 
 # C# homework for 6 lesson
 ## Ex 041, Ex 043
+
+# C# homework for 7 lesson
+## Ex 047, Ex 050, Ex 052
