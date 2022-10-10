@@ -8,4 +8,7 @@
 ## Ex 019, Ex 021, Ex 023
 
 # C# homework for 4 lesson
-## Ex 025, Ex 027, Ex 029 
+## Ex 025, Ex 027, Ex 029
+
+# C# homework for 5 lesson
+## Ex 034, Ex 036, Ex 038
