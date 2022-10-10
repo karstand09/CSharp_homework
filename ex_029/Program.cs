@@ -2,17 +2,13 @@
 
 Console.Clear();
 
-int [] arr = new int [8];
+int [] arr = new int [8]; // создаём пустой массив на 8 ячеек
 
-int i = 0;
-while (i < arr.Length)
+
+for (int i = 0; i < arr.Length; i++) // наполняем массив рандомными числами
 {
-  arr [i] = new Random().Next(0, 99);
-  Console.Write(arr[i] + " ");
-  i++;
+    arr [i] = new Random().Next(0, 99);
 }
-
-Console.WriteLine();
 
 void PrintArray(int[] array) // функция вывода массива на экран
 {
@@ -44,5 +40,6 @@ void SelectionSort(int[] array) // функция сортировки из ле
   }
 }
 
+PrintArray(arr);
 SelectionSort(arr);
 PrintArray(arr);
