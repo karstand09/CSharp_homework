@@ -2,10 +2,7 @@
 
 Console.Clear();
 
-Console.Clear();
-
 int [] arr = new int [10]; // создаём пустой массив на 10 ячеек
-
 
 for (int i = 0; i < arr.Length; i++) // наполняем массив рандомными числами
 {
