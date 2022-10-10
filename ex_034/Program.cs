@@ -21,18 +21,18 @@ void PrintArray(int[] array) // функция вывода массива на 
   Console.WriteLine();
 }
 
-void SumPositive(int[] array) // функция суммы положительных чисел
+void CountPositive(int[] array) // функция подсчёта положительных чисел
 {
-    int result = 0;
+    int count = 0;
     for (int i = 0; i < array.Length; i++)
     {
         if (array[i] % 2 != 1) 
         {
-            result = result + array[i];
+            count = count + 1;
         }
     }
-    Console.Write($"Sum of positive numbers = {result} ");
+    Console.Write($"Count of positive numbers = {count} ");
 }
 
 PrintArray(arr);
-SumPositive(arr);
+CountPositive(arr);
