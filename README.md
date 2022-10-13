@@ -21,3 +21,6 @@
 
 # C# homework for 8 lesson
 ## Ex 054, Ex 056, Ex 058
+
+# C# homework for last 9 lesson
+## Ex 064, Ex 066, Ex 068
